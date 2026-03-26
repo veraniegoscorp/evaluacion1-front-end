@@ -1,0 +1,116 @@
+body{
+    background: url(../images/background.webp);
+    background-size: 1000px;
+    background-attachment: fixed;
+}
+
+.header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 100%;
+    background:linear-gradient(to bottom,black 30%,rgba(128, 128, 128, 0.493));
+    z-index: 100;
+}
+.nav{
+    position:fixed;
+    top: 200px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    width: 100%;
+    background:url(../images/nav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.main{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section{
+    position:absolute;
+    left:-30px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 80%;
+    background: url(../images/elden-ring-saved-by-blaidd-during-radahn-fight.avif);
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    z-index: 1;
+}
+
+.aside{
+    position:absolute;
+    right:0px;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width:21%;
+    background: url(../images/side.webp);
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    z-index: 1;
+}
+
+.article{
+    position:relative;
+    margin-top:300px;
+    left:0;
+    z-index:5;
+    background: url(../images/scifi_main_menu.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height:500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.footer{
+    position:relative;
+    margin-top:300px;
+    left:calc(50vh - 250px);
+    z-index:5;
+    background: url(../images/scifi_main_menu.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width: 1500px;
+    height:500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+
+
